@@ -29,28 +29,34 @@
 }
 
 .para1 {
+
     position: absolute;
     top: 400px;
     left: 72px;
     font-size: 32px;
     font-family: 'Cabin', sans-serif;
+    color: white;
 }
 
 .para2 {
+
     position: absolute;
     top: 442px;
     left: 72px;
     font-size: 32px;
     font-family: 'Cabin', sans-serif;
+    color: white;
+
 }
 
 .product-news {
     margin-top: 180px;
 }
 
-.setMargin{
+.setMargin {
     margin: 8px;
 }
+
 .subscribeContainer {
     border: 3px solid red;
     margin-top: 170px;
@@ -78,14 +84,16 @@
 @media screen and (max-width: 1380px) {
     .para1 {
         position: absolute;
-        top: 65px;
+        top: 134px;
         left: 9px;
         font-size: 24px;
+        color: white;
+
     }
 
     .para2 {
         position: absolute;
-        top: 95px;
+        top: 162px;
         left: 9px;
         font-size: 20px;
     }
