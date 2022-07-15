@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Capriola&family=Comic+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Asap+Condensed&family=Cabin&family=Capriola&family=Comic+Neue&display=swap');
+
+.home {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.imgSet img {
+    height: 29px;
+    width: 29px;
+    margin: 2px 6px;
+}
+
+.content{
+    height: 400px;
+
+}
+
+.setHeight {
+    height: 40vh;
+}
+
+.cardsAlignment {
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+    margin: 15px 15px;
+}
+
+.setWidth {
+    width: 100%;
+}
+
+.para1 {
+
+    position: absolute;
+    top: 400px;
+    left: 72px;
+    font-size: 32px;
+    font-family: 'Cabin', sans-serif;
+    color: white;
+}
+
+.para2 {
+
+    position: absolute;
+    top: 442px;
+    left: 72px;
+    font-size: 32px;
+    font-family: 'Cabin', sans-serif;
+    color: white;
+
+}
+
+.product-news {
+    margin-top: 180px;
+}
+
+.setMargin {
+    margin: 8px;
+}
+
+.subscribeContainer {
+    border: 3px solid red;
+    margin-top: 170px;
+    background-color: red;
+    color: white;
+    padding: 8px 8px;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.subscribeContainer button {
+    position: absolute;
+    right: 48px;
+}
+
+.footer-sets li, .navbar a, .subscribe span, .container p {
+    font-family: 'Alata', sans-serif;
+}
+
+.container h1, .content h2, .subscribe button, .footer-sets p {
+    font-family: 'Cabin', sans-serif;
+}
+
+
+@media screen and (max-width: 1380px) {
+    .para1 {
+        position: absolute;
+        top: 134px;
+        left: 9px;
+        font-size: 24px;
+        color: white;
+
+    }
+
+    .para2 {
+        position: absolute;
+        top: 162px;
+        left: 9px;
+        font-size: 20px;
+    }
+
+    .setHeight {
+        height: 25vh;
+    }
+
+    .product-news {
+        margin-top: 17px;
+    }
+
+    .subscribeContainer {
+        margin-top: 17px;
+        padding: 5px 5px;
+        font-weight: bolder;
+    }
+
+    .subscribeContainer button {
+        position: initial;
+
+    }
+
+    .footer-sets p {
+        margin: 3px;
+    }
+}
