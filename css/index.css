@@ -13,8 +13,11 @@
     margin: 2px 6px;
 }
 
+.content{
+    height: 400px;
+}
 .setHeight {
-    height: 40vh;
+    height: 80px;
 }
 
 .cardsAlignment {
